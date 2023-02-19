@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VmqMiTvUC6jKY7Co+awrgM7V63aF6oQOKeqFm4elo1AF2jeMX04pzj3YZ08GDnhShe08Zd8wvPPxp6wRHt6G/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\golub\\Develop\\source\\WeatherTest\\WeatherTest\\WeatherTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\golub\\.nuget\\packages\\googlemaps.locationservices\\1.2.0.5\\googlemaps.locationservices.1.2.0.5.nupkg.sha512",
+    "C:\\Users\\golub\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\golub\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
