@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System.Net;
+﻿using System.Text.Json;
 
 namespace WeatherTest
 {
@@ -20,14 +19,18 @@ namespace WeatherTest
         {
             HttpResponseMessage responseMessage = await _httpClient.GetAsync(Url);
 
-            WeatherInfo weatherInfo = JsonConvert
-                .DeserializeObject<WeatherInfo>(
-                    await responseMessage.Content.ReadAsStringAsync());
+            JsonSerializerOptions jso = new()
+            {
+                PropertyNameCaseInsensitive = true,
+                PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
+            };
+
+            WeatherInfo weatherInfo = JsonSerializer.Deserialize<WeatherInfo>(await responseMessage.Content.ReadAsStringAsync(), jso)!;
 
             return "Погода в Самаре:\n" +
-               $"Температура: {weatherInfo.temp}\n" +
-               $"Ощущается как: {weatherInfo.feels_Like}\n" +
-               $"Скорость ветра: {weatherInfo.wind_speed} м\\с";
+               $"Температура: {weatherInfo.Temp}\n" +
+               $"Ощущается как: {weatherInfo.Feels_Like}\n" +
+               $"Скорость ветра: {weatherInfo.Wind_Speed} м\\с";
         }
     }
 }

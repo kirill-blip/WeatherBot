@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[1.2.0.5, )"
             },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            },
             "Telegram.Bot": {
               "target": "Package",
               "version": "[18.0.0, )"

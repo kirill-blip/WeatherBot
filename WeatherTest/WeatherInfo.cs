@@ -2,8 +2,7 @@
 
 public class WeatherInfo
 {
-    public float temp { get; set; }
-    public float feels_Like { get; set; }
-    public float temp_water { get; set; }
-    public float wind_speed { get; set; }
+    public float Temp { get; set; }
+    public float Feels_Like { get; set; }
+    public float Wind_Speed { get; set; }
 }

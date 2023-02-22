@@ -49,7 +49,7 @@ internal class WeatherProgram
         Message sentMessage = await botClient.SendTextMessageAsync(chatId: chatId, text: textMessage, cancellationToken: cancellationToken);
     }
 
-    private static Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
+    private Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
     {
         var ErrorMessage = exception switch
         {

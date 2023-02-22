@@ -17,3 +17,6 @@ C:\Users\golub\Develop\source\WeatherTest\WeatherTest\bin\Debug\net7.0\Newtonsof
 C:\Users\golub\Develop\source\WeatherTest\WeatherTest\bin\Debug\net7.0\Telegram.Bot.dll
 C:\Users\golub\Develop\source\WeatherTest\WeatherTest\obj\Debug\net7.0\WeatherTest.csproj.CopyComplete
 C:\Users\golub\Develop\source\WeatherTest\WeatherTest\bin\Debug\net7.0\GoogleMaps.LocationServices.dll
+C:\Users\golub\Develop\source\WeatherTest\WeatherTest\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\golub\Develop\source\WeatherTest\WeatherTest\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\golub\Develop\source\WeatherTest\WeatherTest\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll

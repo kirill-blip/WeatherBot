@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/tGt1p8bxfMchSxvPd6rAt6R+iM9MpLpdPdsKHKgGLFbwzU+65cw2wAtO7TR+5wDbJ1RB7jQrla+HrDGgjhYGw==",
+  "dgSpecHash": "/HlXvy0jxNWSd6DetnCh8jwY4bJXsodc+Q2ZtYOLy/PRLr7vL46nPrO1I9me8ZuyUEy8r3pMLh1G1knda3fWXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\golub\\Develop\\source\\WeatherTest\\WeatherTest\\WeatherTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\golub\\.nuget\\packages\\googlemaps.locationservices\\1.2.0.5\\googlemaps.locationservices.1.2.0.5.nupkg.sha512",
     "C:\\Users\\golub\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\golub\\.nuget\\packages\\system.text.encodings.web\\8.0.0-preview.1.23110.8\\system.text.encodings.web.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\golub\\.nuget\\packages\\system.text.json\\8.0.0-preview.1.23110.8\\system.text.json.8.0.0-preview.1.23110.8.nupkg.sha512",
     "C:\\Users\\golub\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512"
   ],
   "logs": []

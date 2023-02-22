@@ -3,9 +3,9 @@
 internal class BotResponseMessage
 {
     #region Messages
-    private string _aboutMessage = "Привет, я Аликс Вэнс. Я могу рассказать тебе про погоду в Самаре.";
-    private string _incorectCommandMessage = "Чтобы узнать все мои команды, напишите: \"/commands\"";
-    private string _commandsMessage = "/weather - показывает погоду в Самаре\n" +
+    private const string AboutMessage = "Привет, я Аликс Вэнс. Я могу рассказать тебе про погоду в Самаре.";
+    private const string IncorectCommandMessage = "Чтобы узнать все мои команды, напишите: \"/commands\"";
+    private const string CommandsMessage = "/weather - показывает погоду в Самаре\n" +
                 "/commands - показывает все команды\n" +
                 "/about - рассказывает про себя\n";
     #endregion
@@ -22,9 +22,9 @@ internal class BotResponseMessage
         return command.ToLowerInvariant() switch
         {
             "/weather" => await _weatherProvider.GetWeatherInSamaraAsync(),
-            "/commands" => _commandsMessage,
-            "/about" or "/start" => _aboutMessage,
-            _ => _incorectCommandMessage
+            "/commands" => CommandsMessage,
+            "/about" or "/start" => AboutMessage,
+            _ => IncorectCommandMessage
         };
     }
 }
